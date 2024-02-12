@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    margin-top: 15px;
+    height: 90px;
+    width: 220px;
+    mix-blend-mode: color-burn;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+.navlist li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.navlist li:hover{
+    cursor: pointer;
+}
+.navlist{
+    display: flex;
+    gap: 60px;
+}
+.navlist a{
+    text-decoration: none;
+    color: black;
+}
+.login-btn{
+   height: 35px;
+   width: 90px;
+   border-radius: 6px;
+   font-size: 15px;
+   padding: 7px;
+   font-family: 'Montserrat', sans-serif;
+}
+.login-btn:hover{
+    cursor: pointer;
+}
+
+.text-body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding: 100px 0px;
+    color: #0d1554;
+}
+.image-container{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    /* background-color: #c8c8c8; */
+    background-color: #e6e9ff;
+    border-radius: 15px;
+}
+.upload-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #050924;
+    padding: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.select-btn{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.select-btn:hover{
+    cursor: pointer;
+}
+#custom-text{
+    font-family: 'Roboto', sans-serif;
+}
+#preview{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#about h2, #contact h2{
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
+}
+#about{
+    width: 1100px;
+    margin: auto;
+}
+#about p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 20px;
+}
+.line{
+    background: green;
+    height: 3px;
+    width: 67px;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 150px;
+    justify-content: center;
+}
+.image-contact img{
+    height: 450px;
+    width: auto;
+    margin: -50px 0px 0px 0px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.output-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 7px;
+}
+.output-text p{
+    padding: 10px;
+}
+.output-text input{
+    border: 2px solid;
+    padding: 20px;
+    align-self: center;
+}
+.copyright p{
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1171px){
+    .about-para{
+        margin: 20px;
+    }
+    .output-text{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .container{
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}

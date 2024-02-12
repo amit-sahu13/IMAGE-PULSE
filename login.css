@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.h {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: orange;
+    font-weight: bolder;
+}
+
+.form-container {
+    display: none;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #c2bdbd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 10%;
+    right: 9.8%;
+    align-self: center;
+}
+
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-toggle button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px;
+    background-color: #0d1554;
+    color: #fff;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.form-toggle button.active {
+    background-color: #042141;
+}
+
+.form-section {
+    display: none;
+}
+
+.form-section.show {
+    display: block;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(255, 168, 6);
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: rgb(235, 84, 84);
+}
+
+.close-btn {
+    cursor: pointer;
+    margin-left: 357px;
+    margin-top: -35px;
+    padding: 18px 0px 7px 0px;
+    font-size: 25px;
+    display: block;
+}
+
