@@ -117,7 +117,7 @@
                 </form>
 
                 <div class="image-contact">
-                    <img src="contact.jpg" alt="">
+                    <img src="contact.jpg" alt="Errro">
                 </div>
             </div>
         </section>
