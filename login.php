@@ -8,7 +8,7 @@ if (isset($_POST['login'])) {
     $password = $_POST['password'];
 }
 
-$conn = mysqli_connect("sql6.freesqldatabase.com", "sql6682338", "JaZ7Mr1M5N", "sql6682338");
+$conn = mysqli_connect("sql6.freemysqlhosting.net", "sql6684197", "9FVDhCdmUv", "sql6684197");
 $rows = mysqli_query($conn, "select DISTINCT name,email from authentication");
 $rows = mysqli_query($conn, "delete from authentication where name=''");
 $rows = mysqli_query($conn, "select *from authentication");

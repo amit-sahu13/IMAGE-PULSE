@@ -13,9 +13,9 @@
 <body>
     <header>
         <nav class="navigation">
-            <img class="logo" src="images/logo-main.jpg" alt="Logo">
+            <img class="logo" src="logo-main.jpg" alt="Logo">
             <ul class="navlist">
-                    <li>HOME</li>
+                <li>HOME</li>
                 <a href="#about">
                     <li>ABOUT</li>
                 </a>
@@ -33,8 +33,8 @@
         <p class="text-body">Image annotation and recognition platform</p>
         <?php
 
-        include 'authentication/registration.php';
-        include 'authentication/login.php';
+        include 'registration.php';
+        include 'login.php';
 
         ?>
         <div class="form-container" id="formscontainer">
@@ -71,7 +71,7 @@
                 </div>
             </form>
         </div>
-        <script type="module" src="javascript/user-validation.js"></script>
+        <script type="module" src="user-validation.js"></script>
         <div class="image-container">
             <p class="upload-text">UPLOAD YOUR IMAGE HERE</p>
             <input type="file" id="real-file" onchange="imagePreview(event)" hidden>
@@ -117,7 +117,7 @@
                 </form>
 
                 <div class="image-contact">
-                    <img src="images/contact.jpg" alt="">
+                    <img src="contact.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -130,8 +130,8 @@
         </div>
     </footer>
 
-    <script src="javascript/select-image.js"></script>
-    <script src="javascript/login.js"></script>
+    <script src="select-image.js"></script>
+    <script src="login.js"></script>
 
 </body>
 

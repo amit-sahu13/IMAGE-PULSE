@@ -1,14 +1,16 @@
 <?php
 
+
+    
 global $email;
 global $user;
 global $pass;
 
 
-$servername = "sql6.freesqldatabase.com";
-$username = "sql6682338";
-$password = "JaZ7Mr1M5N";
-$database = "sql6682338";
+$servername = "sql6.freemysqlhosting.net";
+$username = "sql6684197";
+$password = "9FVDhCdmUv";
+$database = "sql6684197";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -28,8 +30,8 @@ if (isset($_POST['signup_submit'])) {
 
 $sql = "INSERT INTO authentication(email,password,name) VALUES('$email','$pass','$user')";
 
-if(mysqli_query($conn, $sql)){
-   
+if(mysqli_query($conn, $sql)==true){
+   $insert = true;
 }
 else{
     echo '<script type="text/JavaScript">  
@@ -37,4 +39,5 @@ else{
     </script>';
 }
 mysqli_close($conn);
+
 ?>
